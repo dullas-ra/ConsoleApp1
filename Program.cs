@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using ConsoleApp1;
 
 namespace prelim_exam
 {

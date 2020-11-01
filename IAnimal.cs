@@ -1,6 +1,4 @@
-﻿using System.Dynamic;
-
-namespace ConsoleApp1
+﻿namespace ConsoleApp1
 {
     public interface IName
     {

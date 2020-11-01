@@ -1,5 +1,4 @@
 ﻿using ConsoleApp1;
-using System;
 
 namespace prelim_exam
 {
