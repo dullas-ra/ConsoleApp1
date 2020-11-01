@@ -1,17 +1,49 @@
-﻿using System;
+﻿using ConsoleApp1;
+using System;
 
 namespace prelim_exam
 {
-    public class Bird : Animal
+    public class Bird : Animal, IName
     {
-        public override string GetClass()
+        public Bird(string animalName, int numberOfLegs) : base(animalName, numberOfLegs) { }
+
+
+        public new string _class = "Aves";
+
+        public new string _ofType = "Birds";
+
+        public string beak { get; set; }
+        public string skin { get; set; }
+
+        public override string GetClass() => _class;
+        public override string OfType() => _ofType;
+
+ 
+    }
+
+    public class Pelican : Bird, IBird
+    {
+        public Pelican(string animalName, int numberOfLegs) : base(animalName, numberOfLegs)
         {
-            throw new NotImplementedException();
+
+            this.beak = "long beak";
+
+            this.skin = "pouch on its front";
         }
 
-        public override string OfType()
+        public void Fly() => Console.WriteLine("Fly!");
+    }
+    public class Hummingbird : Bird, IBird
+    {
+        public Hummingbird(string animalName, int numberOfLegs) : base(animalName, numberOfLegs)
         {
-            throw new NotImplementedException();
+
+            this.beak = "long beak";
+
+            this.skin = "pouch on its front";
         }
+
+        public void Fly() => Console.WriteLine("Fly!");
+
     }
 }
