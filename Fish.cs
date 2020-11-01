@@ -11,9 +11,7 @@ namespace prelim_exam
 
         public new string _ofType = "Fishes";
 
-
-        public string mouth { get; set; }
-        public string head { get; set; }
+        public string teeth { get; set; }
         public string fins { get; set; }
         public string fishType { get; set; }
         public string skin { get; set; }
@@ -30,11 +28,7 @@ namespace prelim_exam
         public Piranha(string animalName, int numberOfLegs) : base(animalName, numberOfLegs)
         {
 
-            this.fishType = "electric snake type";
-
-            this.fins = "soft-rayed fins";
-
-            this.skin = "slippery skin";
+            this.teeth = "razer sharp teeth";
 
             this.CanSwim = true;
 
@@ -51,9 +45,11 @@ namespace prelim_exam
         public Eel(string animalName, int numberOfLegs) : base(animalName, numberOfLegs)
         {
 
-            this.head = "large head";
+            this.fishType = "electric snake type";
 
-            this.mouth = "large mouth";
+            this.fins = "soft-rayed fins";
+
+            this.skin = "slippery skin";
 
             this.CanSwim = true;
 

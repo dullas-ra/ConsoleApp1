@@ -15,7 +15,7 @@ namespace prelim_exam
         public new string _ofType = "Amphibian";
 
 
-        public string tail { get; set; }
+        public string legs { get; set; }
         public string toes { get; set; }
         public string skin { get; set; }
 
@@ -33,13 +33,11 @@ namespace prelim_exam
         public Toad(string animalName, int numberOfLegs) : base(animalName, numberOfLegs)
         {
 
+            this.legs = "shorter-length legs";
 
+            this.toes = "webbed feet";
 
-            this.tail = "long tail";
-
-            this.toes = "delicate toes";
-
-            this.skin = "moist skin";
+            this.skin = "rough skin";
 
             this.CanSwim = true;
 
@@ -56,9 +54,7 @@ namespace prelim_exam
         public Frog(string animalName, int numberOfLegs) : base(animalName, numberOfLegs)
         {
 
-
-
-            this.tail = "long tail";
+            this.legs = "long legs";
 
             this.toes = "webbed feet";
 

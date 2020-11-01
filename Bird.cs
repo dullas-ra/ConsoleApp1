@@ -29,6 +29,10 @@ namespace prelim_exam
             this.beak = "long beak";
 
             this.skin = "pouch on its front";
+
+            this.CanSwim = false;
+
+            this.HasLegs();
         }
 
         public void Fly() => Console.WriteLine("Fly!");
@@ -41,6 +45,10 @@ namespace prelim_exam
             this.beak = "long beak";
 
             this.skin = "pouch on its front";
+
+            this.CanSwim = false;
+
+            this.HasLegs();
         }
 
         public void Fly() => Console.WriteLine("Fly!");

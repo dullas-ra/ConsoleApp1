@@ -29,11 +29,11 @@ namespace prelim_exam
         public Cobra(string animalName, int numberOfLegs) : base(animalName, numberOfLegs)
         {
 
-            this.scales = "long tail";
+            this.scales = "smooth scales";
 
-            this.hood = "delicate toes";
+            this.hood = "mane hood";
 
-            this.pattern = "moist skin";
+            this.pattern = "dull scale";
 
             this.CanSwim = true;
 
@@ -50,6 +50,8 @@ namespace prelim_exam
         {
 
             this.claw = "long claws";
+
+            this.scales = "rough scales";
 
             this.CanSwim = false;
 
