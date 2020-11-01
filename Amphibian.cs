@@ -9,7 +9,6 @@ namespace prelim_exam
         public Amphibian(string animalName, int numberOfLegs) : base(animalName, numberOfLegs) { }
 
 
-
         public new string _class = "Amphibia";
 
         public new string _ofType = "Amphibian";

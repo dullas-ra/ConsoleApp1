@@ -31,8 +31,5 @@ namespace prelim_exam
 
         public string IPrintAnimalName() => _animalName;
 
-
-
-
     }
 }
